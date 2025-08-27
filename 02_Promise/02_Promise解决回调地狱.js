@@ -73,6 +73,7 @@ sum_promise(1, 2)
   .then((res) => sum_promise(res,5))
   .then((res) => sum_promise(res,6))
   .then((res) => sum_promise(res,7))
+  .then((res)=>console.log("1+2+3+4+5+6+7 等于：", res))
   .finally(()=>console.log("收个尾"))
   .catch(error=> console.log("我来给整个调用链条，捕获异常！"))
 
