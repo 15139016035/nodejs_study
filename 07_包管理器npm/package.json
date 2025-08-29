@@ -1,0 +1,13 @@
+{
+  "name": "my_porpject",
+  "version": "1.0.0",
+  "description": "我是一个描述，我是一个nodejs项目，将来也有可能打成包发不到npm上，去给大家使用",
+  "main": "index.js",
+
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
